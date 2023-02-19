@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Valorant;
+    src: url(ValorantFont.ttf);
+}
+
+body {
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size:cover;              
+    background-attachment: fixed;
+    font-family: Valorant;
+    overflow-x: hidden;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.15);
+    z-index: 1;
+  }
+
+.navbar {
+    color: white;
+    width: 90%;
+    height: 70px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 25px 70px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.navbar img {
+    display: inline;
+    width: 3%;
+    margin-top:5px ;
+    margin-left: 5px;
+    position: fixed;
+    margin-left: 580px;
+}
+
+img.valo {
+    width: 25%;
+    display: inline-block;
+    margin-top: -17px;
+    margin-left: 550px;
+    transition: ease-out 0.3s;
+}
+
+.logo {
+    width: 70%;
+    margin: -200px 240px;
+    position: fixed;
+    z-index: -1;
+}
+
+.char {
+    margin-top: 30%;
+}
+
+.raze {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    width: 15%;
+    margin-top: 30px;
+}
+
+.sage {
+    display: inline-block;
+    float: right;
+    width: 15%;
+    margin-top: 30px;
+}
+
+.yoru{
+    display: inline-block;
+    width: 15%;
+    margin-top: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.chamber{
+    display: inline-block;
+    width: 15%;
+    margin-top: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.viper{
+    display: inline-block;
+    width: 15%;
+    margin-top: 30px;
+    position: relative;
+    left: 40px;
+}
+
+.kj{
+    display: inline-block;
+    width: 15%;
+    margin-top: 30px;
+    position: relative;
+    left: 80px;
+}
+
+.raze:hover {
+    cursor: pointer;
+}
+
+.sage:hover {
+    cursor: pointer;
+}
+
+.yoru:hover {
+    cursor: pointer;
+}
+
+.chamber:hover {
+    cursor: pointer;
+}
+
+.viper:hover {
+    cursor: pointer;
+}
+
+.kj:hover {
+    cursor: pointer;
+}
+
+.char h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 550px;
+}
